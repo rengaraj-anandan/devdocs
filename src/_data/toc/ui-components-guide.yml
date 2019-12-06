@@ -50,6 +50,9 @@ pages:
         - label: DynamicRows component
           url: /ui_comp_guide/components/ui-dynamicrows.html
 
+        - label: DynamicRowsDragAndDrop component
+          url: /ui_comp_guide/components/ui-dynamicrows-dnd.html
+
         - label: DynamicRowsRecord component
           url: /ui_comp_guide/components/ui-dynamicrows-record.html
 
@@ -169,7 +172,7 @@ pages:
         - label: ThumbnailColumn component
           url: /ui_comp_guide/components/ui-thumbnailcolumn.html
 
-        - label: Toolbar component
+        - label: ListingToolbar component
           url: /ui_comp_guide/components/ui-toolbar.html
 
         - label: TreeMassActions component

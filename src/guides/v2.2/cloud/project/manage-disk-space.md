@@ -65,7 +65,10 @@ Checking database service mysql...
 
 ## Allocating disk space
 
-Two configuration files control the allocation of disk space in the Integration environment: the `.magento.app.yaml` file and the `.magento/services.yaml` file. Each file contains the `disk` property, which defines the disk size value in MB for the respective configuration.
+Two configuration files control the allocation of disk space in the Cloud environments: the `.magento.app.yaml` file and the `.magento/services.yaml` file. Each file contains the `disk` property, which defines the disk size value in MB for the respective configuration.
+
+{:.bs-callout-info}
+You can change disk space allocation on Pro Integration and Starter enviroments only. You must submit a Magento support ticket to change disk space allocation on Pro Production and Staging environments.
 
 ### Application disk space
 
@@ -120,6 +123,10 @@ To increase disk space for a service:
    ```
 
    The changes take effect after you push the updated YAML file to the remote environment.
+
+## Monitoring disk space
+
+On Pro Production environments, you can monitor disk space and other performance indicators using Adobe-generated alert policies for New Relic. For details, see [New Relic]({{ page.baseurl }}/cloud/project/new-relic.html).
 
 ## No space left
 
